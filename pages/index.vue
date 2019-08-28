@@ -1,5 +1,13 @@
 <template>
   <main>
+    <style>
+    :root{
+      --accent-color: {{ website.fields.accentColor }};
+      --background-color: {{ website.fields.backgroundColor }};
+      --text-color: {{ website.fields.textColor }};
+    }
+    </style>
+
     <!-- Header -->
     <!-- ========== -->
     <header>
@@ -81,9 +89,6 @@
 
 <script>
 export default{
-  mounted() {
-
-  },
   async asyncData({ app, payload, env }) {
     const projects = await app.contentful.getEntries({
       'content_type': 'project',
