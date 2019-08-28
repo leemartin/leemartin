@@ -41,7 +41,16 @@
     <!-- ========== -->
     <section id="work">
       <article>
-        <h3>Selected Work</h3>
+        <h3>Latest Work</h3>
+
+        <ul>
+          <li v-for="project in projects">
+            <a :href="project.fields.link" target="blank">
+              {{ project.fields.artist[0].fields.name }}: {{ project.fields.title }}
+            </a>
+          </li>
+        </ul>
+
         <p>For more case studies, please visit <a href="https://medium.com/@leemartin">the blog</a>.</p>
       </article>
     </section>
@@ -63,3 +72,19 @@
     </section>
   </main>
 </template>
+
+<script>
+export default{
+  async asyncData({ app, payload, env }) {
+    const projects = await app.contentful.getEntries({
+      'content_type': 'project',
+      'limit': 4,
+      'order': '-fields.date'
+    })
+
+    return {
+      projects: projects.items
+    }
+  }
+}
+</script>
