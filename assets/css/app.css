@@ -1,0 +1,100 @@
+:root{
+  --column-width: 1024px;
+}
+
+body{
+  font-size: 2.7vh;
+}
+
+h1, h2, h3, h4, p{
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2, h3, h4{
+  margin-bottom: 1em;
+}
+
+h2{
+  font-size: 1.8em;
+}
+
+h3{
+  font-size: 1em;
+}
+
+h4{
+  font-size: 1.2em;
+}
+
+p{
+  margin: 0 0 1em 0;
+}
+
+article{
+  margin: 0 auto;
+  width: var(--column-width);
+}
+
+/* Header */
+/* ========== */
+header{
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid whitesmoke;
+  display: flex;
+  height: 4em;
+  position: sticky;
+  top: 0;
+}
+
+header article{
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav{
+  display: flex;
+}
+
+header nav a{
+  margin-left: 1em;
+}
+
+/* Section */
+/* ========== */
+section{
+
+}
+
+section article{
+  padding: 2em 0 2em 0;
+}
+
+/* Intro */
+/* ========== */
+section#intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 6em);
+}
+
+/* About */
+/* ========== */
+section#about{
+  background: whitesmoke;
+}
+
+/* Work */
+/* ========== */
+section#work{
+
+}
+
+/* Contact */
+/* ========== */
+section#contact{
+  background: whitesmoke;
+}
