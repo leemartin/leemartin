@@ -57,13 +57,11 @@
       <article>
         <h3>Latest Work</h3>
 
-        <ul>
-          <li v-for="project in projects">
-            <a :href="project.fields.link" target="blank">
-              {{ project.fields.artist[0].fields.name }}: {{ project.fields.title }}
-            </a>
-          </li>
-        </ul>
+        <div id="projects">
+          <a class="project" :href="project.fields.link" target="_blank" v-for="project in projects">
+            <img :src="`${project.fields.image.fields.file.url}?w=1250&h=625&q=50`" />
+          </a>
+        </div>
 
         <p>For more case studies, please visit <a href="https://medium.com/@leemartin">the blog</a>.</p>
       </article>
