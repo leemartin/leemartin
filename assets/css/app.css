@@ -98,3 +98,15 @@ section#work{
 section#contact{
   background: whitesmoke;
 }
+
+/* Mobile */
+/* ========== */
+@media only screen and (max-width: 750px) {
+  :root{
+    --column-width: 90vw;
+  }
+
+  header nav{
+    display: none;
+  }
+}
