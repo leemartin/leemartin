@@ -97,6 +97,7 @@ header nav{
 }
 
 header nav a{
+  color: var(--accent-color);
   margin-left: 1em;
 }
 
@@ -118,6 +119,10 @@ section#intro{
   flex-direction: column;
   justify-content: center;
   height: calc(100% - 5em);
+}
+
+section#intro article a{
+  color: var(--accent-color);
 }
 
 /* About */
