@@ -4,7 +4,7 @@
     <!-- ========== -->
     <header>
       <article>
-        <h1>Lee Martin</h1>
+        <h1><span>Lee Martin</span></h1>
 
         <nav>
           <a href="#">About</a>
