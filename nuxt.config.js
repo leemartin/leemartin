@@ -1,5 +1,9 @@
 export default{
   css: ['~/assets/css/app.css'],
+  env: {
+    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN
+  },
   head: {
     title: 'Lee Martin / Developer',
     link: [
@@ -16,5 +20,8 @@ export default{
         content: 'width=device-width, initial-scale=1'
       }
     ]
-  }
+  },
+  plugins: [
+    '~/plugins/contentful'
+  ]
 }
