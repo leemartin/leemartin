@@ -75,10 +75,10 @@
         <p>+1 985 209 1111<br><a href="mailto:hi@leemartin.com" target="_blank">hi@leemartin.com</a></p>
 
         <nav>
-          <a href="https://www.twitter.com/leemartin">Twitter</a>
-          <a href="https://www.facebook.com/leemartin">Facebook</a>
-          <a href="https://www.linkedin.com/in/leepaulmartin">LinkedIn</a>
-          <a href="https://medium.com/@leemartin">Medium</a>
+          <a class="socicon-twitter" href="https://www.twitter.com/leemartin"></a>
+          <a class="socicon-facebook" href="https://www.facebook.com/leemartin"></a>
+          <a class="socicon-linkedin" href="https://www.linkedin.com/in/leepaulmartin"></a>
+          <a class="socicon-medium" href="https://medium.com/@leemartin"></a>
         </nav>
       </article>
     </section>
