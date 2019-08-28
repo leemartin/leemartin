@@ -103,6 +103,7 @@ header nav{
 header nav a{
   color: var(--accent-color);
   margin-left: 1em;
+  text-decoration: none;
 }
 
 /* Section */
