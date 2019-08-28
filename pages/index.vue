@@ -30,7 +30,7 @@
       <article>
         <h3>Hello</h3>
         <h4>My name is Lee Martin, a designer & developer, with more than 16 years of experience in the music business.</h4>
-        <p>I started my career by running a band's <a href="http://leemart.in/origin">fan site</a> during college and used my connections there (and some blind luck) to begin freelancing in the music business. I took my first real job at <a href="http://www.sammusicbiz.com">Silva Artist Management</a> where I headed up their one-man new media department, crafting campaigns for Foo Fighters, Beck, Jimmy Eat World, Them Crooked Vultures, and many others.</p>
+        <p>I started my career by running a band's fan site during college and used my connections there (and some blind luck) to begin freelancing in the music business. I took my first real job at Silva Artist Management where I headed up their one-man new media department, crafting campaigns for Foo Fighters, Beck, Jimmy Eat World, Them Crooked Vultures, and many others.</p>
         <p>After two years at SAM, I became the first US employee of SoundCloud in the position of Experimental Developer, doing business development by building VIP artist campaigns and scalable apps that utilized SoundCloud's platform. Three years later, I've now exited SoundCloud and reunited with my old band: Freelancing.</p>
         <p>I enjoy creating accessible and focused projects that utilize new web technologies to engage fans in interactive ways and allow them to participate in the storytelling process. I feel this makes fans more inclined to share their participation and in turn expands the viral reach of the campaign's goals.</p>
         <p>Have a project in mind? Please, <a href="#">get in touch</a>.</p>
