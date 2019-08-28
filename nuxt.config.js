@@ -1,4 +1,5 @@
 export default{
+  css: ['~/assets/css/app.css'],
   head: {
     title: 'Lee Martin / Developer',
     link: [
