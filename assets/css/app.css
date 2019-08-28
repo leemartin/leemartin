@@ -64,6 +64,8 @@ p{
   margin: 0 0 1em 0;
 }
 
+/* Article */
+/* ========== */
 article{
   margin: 0 auto;
   width: var(--column-width);
