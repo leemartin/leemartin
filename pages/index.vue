@@ -24,6 +24,7 @@
     <!-- ========== -->
     <section id="about">
       <h3>Hello</h3>
+      <h4>My name is Lee Martin, a designer & developer, with more than 16 years of experience in the music business.</h4>
     </section>
 
     <!-- Work -->
