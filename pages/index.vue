@@ -20,7 +20,7 @@
     <section id="intro">
       <article>
         <h2>{{ website.fields.tagline }}</h2>
-        <a href="https://leemartin.createsend.com/campaigns/reports/viewCampaign.aspx?d=j&c=9B0B724E2C919577&ID=5B4E63BEA43BA3E22540EF23F30FEDED&temp=False&tx=0" target="_blank">Read latest newsletter</a>
+        <a :href="website.fields.newsletter" target="_blank">Read latest newsletter</a>
       </article>
     </section>
 
