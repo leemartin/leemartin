@@ -14,6 +14,10 @@ body{
   font-size: 2.7vh;
 }
 
+a{
+  color: var(--text-color);
+}
+
 h1, h2, h3, h4, p{
   font-size: 1em;
   font-weight: normal;
@@ -150,6 +154,10 @@ section#work article h3{
 /* ========== */
 section#contact{
   background: var(--text-color);
+  color: var(--background-color);
+}
+
+section#contact article a{
   color: var(--background-color);
 }
 
