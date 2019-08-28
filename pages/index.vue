@@ -37,6 +37,7 @@
     <!-- ========== -->
     <section id="contact">
       <h3>Get in touch</h3>
+      <p>+1 985 209 1111<br><a href="mailto:hi@leemartin.com" target="_blank">hi@leemartin.com</a></p>
     </section>
   </main>
 </template>
