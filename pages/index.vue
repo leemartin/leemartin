@@ -39,9 +39,11 @@
       <h3>Get in touch</h3>
       <p>+1 985 209 1111<br><a href="mailto:hi@leemartin.com" target="_blank">hi@leemartin.com</a></p>
 
-      <a href="https://www.twitter.com/leemartin">Twitter</a>
-      <a href="https://www.facebook.com/leemartin">Facebook</a>
-      <a href="https://www.linkedin.com/in/leepaulmartin">LinkedIn</a>
+      <nav>
+        <a href="https://www.twitter.com/leemartin">Twitter</a>
+        <a href="https://www.facebook.com/leemartin">Facebook</a>
+        <a href="https://www.linkedin.com/in/leepaulmartin">LinkedIn</a>
+      </nav>
     </section>
   </main>
 </template>
