@@ -77,6 +77,7 @@
         <nav>
           <a class="socicon-twitter" href="https://www.twitter.com/leemartin"></a>
           <a class="socicon-facebook" href="https://www.facebook.com/leemartin"></a>
+          <a class="socicon-instagram" href="https://www.instagram.com/leemartin"></a>
           <a class="socicon-linkedin" href="https://www.linkedin.com/in/leepaulmartin"></a>
           <a class="socicon-medium" href="https://medium.com/@leemartin"></a>
         </nav>
