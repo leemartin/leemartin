@@ -2,6 +2,10 @@
   --column-width: 1024px;
 }
 
+html, #__nuxt, #__layout, body, main{
+  height: 100%;
+}
+
 body{
   font-size: 2.7vh;
 }
@@ -106,7 +110,7 @@ section#intro{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100vh - 6em);
+  height: calc(100% - 5em);
 }
 
 /* About */
