@@ -47,7 +47,7 @@
           </template>
         </template>
 
-        <p>Have a project in mind? Please, <a href="#">get in touch</a>.</p>
+        <p>Have a project in mind? Please, <a href="#" @click.prevent="scroll('contact')">get in touch</a>.</p>
       </article>
     </section>
 
