@@ -15,9 +15,9 @@
         <h1><span>Lee Martin</span></h1>
 
         <nav>
-          <a href="#">About</a>
-          <a href="#">Work</a>
-          <a href="#">Contact</a>
+          <a href="#" @click.prevent="scroll('about')">About</a>
+          <a href="#" @click.prevent="scroll('work')">Work</a>
+          <a href="#" @click.prevent="scroll('contact')">Contact</a>
           <a href="https://confirmsubscription.com/h/j/7BE1CD1F96F6B42F" target="_blank">Newsletter</a>
         </nav>
       </article>
@@ -88,6 +88,13 @@
 
 <script>
 export default{
+  methods: {
+    scroll(section) {
+      document.getElementById(section).scrollIntoView({
+        behavior: 'smooth'
+      })
+    }
+  },
   async asyncData({ app, payload, env }) {
     const projects = await app.contentful.getEntries({
       'content_type': 'project',
