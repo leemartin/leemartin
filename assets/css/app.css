@@ -196,7 +196,7 @@ section#contact article nav a{
 /* ========== */
 @media only screen and (max-width: 750px) {
   :root{
-    --column-width: 90vw;
+    --column-width: calc(100vw - 4em);
   }
 
   header nav{

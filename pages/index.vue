@@ -63,7 +63,7 @@
           </a>
         </div>
 
-        <p>For more case studies, please visit <a href="https://medium.com/@leemartin">the blog</a>.</p>
+        <p>For more case studies, visit <a href="https://medium.com/@leemartin">the blog</a>.</p>
       </article>
     </section>
 
