@@ -31,6 +31,42 @@ export default{
       }, {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1'
+      }, {
+        property: 'og:site_name',
+        content: 'Lee Martin'
+      }, {
+        property: 'og:image',
+        content: 'https://www.leemartin.com/images/social.jpg'
+      }, {
+        property: 'og:title',
+        content: 'Developer'
+      }, {
+        property: 'og:description',
+        content: 'Lee Martin develops websites for rock n roll bands and gets paid in sex and drugs.'
+      }, {
+        property: 'og:url',
+        content: 'https://www.leemartin.com'
+      }, {
+        property: 'og:type',
+        content: 'website'
+      }, {
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      }, {
+        name: 'twitter:site',
+        content: '@leemartin'
+      }, {
+        name: 'twitter:title',
+        content: 'Lee Martin / Developer'
+      }, {
+        name: 'twitter:description',
+        content: 'Lee Martin develops websites for rock n roll bands and gets paid in sex and drugs.'
+      }, {
+        name: 'twitter:image',
+        content: 'https://www.leemartin.com/images/social.jpg'
+      }, {
+        name: 'twitter:url',
+        content: 'https://www.leemartin.com'
       }
     ]
   },
