@@ -70,6 +70,14 @@ export default{
       }
     ]
   },
+  modules: [
+    ['@nuxtjs/google-analytics', {
+      id: process.env.GOOGLE_ANALYTICS_ID,
+      debug: {
+        enabled: false
+      }
+    }]
+  ],
   plugins: [
     '~/plugins/contentful'
   ]
