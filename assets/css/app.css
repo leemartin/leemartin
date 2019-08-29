@@ -162,17 +162,12 @@ section#work article div#projects{
 
 section#work article div#projects a{
   display: block;
-  filter: grayscale(1.0);
   width: 50%;
 }
 
 section#work article div#projects a.project img{
   display: block;
   width: 100%;
-}
-
-section#work article div#projects a:hover {
-  filter: grayscale(0.0);
 }
 
 /* Contact */
