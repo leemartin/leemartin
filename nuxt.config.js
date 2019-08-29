@@ -16,6 +16,10 @@ export default{
       }, {
         rel: 'stylesheet',
         href: 'https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh'
+      }, {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.png'
       }
     ],
     meta: [
