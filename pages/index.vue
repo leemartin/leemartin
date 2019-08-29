@@ -36,7 +36,7 @@
     <!-- ========== -->
     <section id="about">
       <article>
-        <h3>Hello</h3>
+        <h3><i class="material-icons">remove_red_eye</i> Hello</h3>
 
         <template v-for="node in website.fields.about.content">
           <template v-if="node.nodeType == 'heading-4'">
@@ -55,7 +55,7 @@
     <!-- ========== -->
     <section id="work">
       <article>
-        <h3>Latest Work</h3>
+        <h3><i class="material-icons">bookmark</i> Latest Work</h3>
 
         <div id="projects">
           <a class="project" :href="project.fields.link" target="_blank" v-for="project in projects">
@@ -71,7 +71,7 @@
     <!-- ========== -->
     <section id="contact">
       <article>
-        <h3>Get in touch</h3>
+        <h3><i class="material-icons">chat_bubble</i> Get in touch</h3>
         <p>+1 985 209 1111<br><a href="mailto:hi@leemartin.com" target="_blank">hi@leemartin.com</a></p>
 
         <nav>

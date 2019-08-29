@@ -12,6 +12,9 @@ export default{
         href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'
       }, {
         rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'
+      }, {
+        rel: 'stylesheet',
         href: 'https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh'
       }
     ],
