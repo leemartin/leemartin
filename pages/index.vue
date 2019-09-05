@@ -18,7 +18,7 @@
           <a href="#" @click.prevent="scroll('about')">About</a>
           <a href="#" @click.prevent="scroll('work')">Work</a>
           <a href="#" @click.prevent="scroll('contact')">Contact</a>
-          <a href="https://confirmsubscription.com/h/j/7BE1CD1F96F6B42F" target="_blank">Newsletter</a>
+          <a href="https://bit.ly/2k09FKX" target="_blank">September Newsletter</a>
         </nav>
       </article>
     </header>
